@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cde756;
+    color: #62419e;
+    margin: 20px;
+  }
+
+.container {
+    border: 2px solid violet;
+    margin: 1em 3em 2em 3em;
+    transition: 120ms;
+    
+}
+
+.container:hover {
+    border: 2px dashed rgb(166, 170, 166);
+
+}
+
+#cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#cuadroCentral {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(145, 145, 248);
+    
+}
+
+#cuadroIzquierdo {
+    width: 50vw;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+#cuadroDerecho {
+    width: 50vw;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+#pie {
+    display: flex;
+    justify-content: center;
+}

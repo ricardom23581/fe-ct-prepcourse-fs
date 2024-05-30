@@ -25,6 +25,7 @@ body {
 
 .logo {
     width: 200px;
+    height: 200px;
 }
 
 #titulos {
@@ -33,19 +34,44 @@ body {
     width: 65vw;
     margin: auto;
     padding: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    align-items: center;
 }
 
 .cards {
     border: 2px solid black;
     width: fit-content;
-    padding: 0px 2em 1em 2em;
+    height: 15vw;
+    padding: 1px 2em 2em 2em;
     border-radius: 10%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
 }
 
 .cards:hover {
     background-color: mediumvioletred ;
 }
 
+#cardsContainer {
+    /*background-color: aqua;*/
+    width: 80vw;
+    height: 50vw;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    border: 5px solid rgb(51, 21, 21);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
 
 
